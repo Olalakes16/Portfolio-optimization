@@ -11,36 +11,43 @@ This project analyzes data of stocks in the provided dataset (Facebook/Meta, App
 I used Python 3.11.14 to ensure compatibility with financial libraries. Open your terminal (or Anaconda Prompt) and run the following before you run the file to ensure your code runs well:
 
 # Create the specific environment
+```
 conda create -n finance python=3.11.14
+```
 
 # Activate the environment (Enter the sandbox)
+```
 conda activate finance
+```
 
 # Replace the "FAANG dataset- finance.csv" file with your own dataset. 
 Ensure your dataset follows the structure of the: FAANG dataset- finance.csv" file, which is as follows (following this order of headers):
 Date(in ISO format), Nams of each stock, for example:
+```
 "Date","AAPL","AMZN","GOOGL","META","NFLX"
+```
 
 # Change the path in faang_calculations.py
 Go to line 12. You'd see this:
-'''
+```
 faang_data = pd.read_csv('FAANG dataset- finance.csv')
-'''
+```
 Replace the "FAANG dataset- finance.csv" with your own csv name. Ensure the name of the file is placed in the quotation marks to prevent errors.
 
 ### Step 2: Install Dependencies
 
 Install the required libraries inside your new environment by running the following script:
-
+```
 pip install -r requirements.txt
+```
 
 
 ### Step 3: Run the Dashboard
 
 To generate the visual report, run the plotting script:
-
+```
 python faang_plots.py
-
+```
 
 
 ## The Tech Stack (And Why I Used It)
@@ -89,4 +96,5 @@ You recieve this as the result on the plots:
 
 In addition, you get some nice tables in the output, on the terminal.
 <!-- end list -->
+
 
