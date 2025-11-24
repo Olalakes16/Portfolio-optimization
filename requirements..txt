@@ -1,0 +1,8 @@
+Dependencies and libraries to download 
+
+pandas
+numpy
+matplotlib
+seaborn
+PyPortfolioOpt
+scipy
