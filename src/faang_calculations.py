@@ -12,7 +12,7 @@ try: #this is the native path
     faang_data = pd.read_csv('FAANG dataset- finance.csv')
 except FileNotFoundError:
     # This is the specific path on my local computer
-    faang_data = pd.read_csv('C:/Users/DELL/Documents/PROJECT FOR DATA ANALYSIS/PROJECT- PYTHON/FAANG dataset- finance.csv')
+    faang_data = pd.read_csv('C:/Users/DELL/Documents/PROJECT FOR DATA ANALYSIS/PROJECT- PYTHON/data/FAANG dataset- finance.csv')
 print("\n" + "="*40)
 print("SHORT SUMMARY OF DATA")
 print("="*40)
@@ -98,6 +98,7 @@ print("\n" + "="*40)
 print("10. MINIMUM VOLATILITY PORTFOLIO")
 print("="*40)
 print(volatile_portfolio)  
+
 
 
 
