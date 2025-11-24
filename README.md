@@ -30,9 +30,9 @@ Replace the "FAANG dataset- finance.csv" with your own csv name. Ensure the name
 
 ### Step 2: Install Dependencies
 
-Install the required libraries inside your new environment:
+Install the required libraries inside your new environment by running the following script:
 
-pip install pandas numpy matplotlib seaborn PyPortfolioOpt
+pip install -r requirements.txt
 
 
 ### Step 3: Run the Dashboard
@@ -89,3 +89,4 @@ You recieve this as the result on the plots:
 
 In addition, you get some nice tables in the output, on the terminal.
 <!-- end list -->
+
